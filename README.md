@@ -22,8 +22,8 @@ The code for fighter aircraft example is in the corresponding example folder `Th
 
 ## Organization
 
-The algorithms are in the `Thesis/Missile` directory. The folder `Thesis/utils/` contains helper functions. The folder 'Thesis/SimulationFiles' contains simulation models created in simulink. The most important ones are:
+The algorithms are in the `Thesis/FighterAC` directory. The folder `Thesis/utils/` contains helper functions. The folder 'Thesis/SimulationFiles' contains simulation models created in simulink. The most important ones are:
 
-    DataDrivenControl     : System Identification (SI) and MPC for Missile. (Core algorithm)
+    DataDrivenControl     : System Identification (SI) and MPC for FighterAC. (Core algorithm)
     FighterAC.slx : Simulation model to collect training data
     
